@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="pageloaded()">
+    <button onclick="greet()">click me</button>
+    <input type="text" onkeypress="printword()" id="inputBar">
+
+    <form action="">
+    <label for="">
+        password
+        <input type="password" name="" id="password">
+
+    </label>
+    <label for="">
+        confirm password
+        <input type="password" name="" id="confirmPassword" onkeyup="checkPassword()">
+    </label>
+<span id="passwordError" style="display:none;">Password does'nt match</span>
+</form>
+
+    <script src="./app.js"></script>
+</body>
+</html>
